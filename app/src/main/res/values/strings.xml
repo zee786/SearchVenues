@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Search Venues</string>
+
+    <string name="connection_error">Connection with server failed, please try again later</string>
+    <string name="no_record_found">No relevant venue found against your search string...</string>
+
+</resources>
