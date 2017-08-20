@@ -24,8 +24,8 @@ public class BackendTest
     private String gpsSettingTitle="GPS Settings";
     private String gpsSettingMessage="GPS is not enabled. Please enable it using settings menu";
     private final String apiUrl="";
-    private final String clientID="YFRT0F0EKMLCUYYQO04YWQMUN15MXZH2KEXU5ZGN2D1QV0CF"; //Client id
-    private final String clientSecret="I2NQKHQPPL3DCCBTWU4PP4ZF2WJMGYZEOXIVXSHF0K330RJA"; // Client secret
+    private final String clientID=""; //Client id
+    private final String clientSecret=""; // Client secret
     private final String baseQuery = "https://api.foursquare.com/v2/venues/search?"; //base query string from foursquare
     private final int apiVersion=20130815; // apiversion
     private double latitude=0.0; //latitude

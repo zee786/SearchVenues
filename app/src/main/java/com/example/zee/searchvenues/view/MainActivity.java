@@ -72,12 +72,14 @@ public class MainActivity extends AppCompatActivity implements MainController{
                 return false;
             }
         });
+
+        presenter = new Presenter(this, new VenueSearch());
     }
 
 
     private void search(String query) {
         // instantiate Presenter object
-        presenter = new Presenter(this, new VenueSearch());
+
         this.searchQuery = query;
         // pass the search query to presenter
         presenter.search(searchQuery);
