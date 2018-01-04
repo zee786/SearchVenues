@@ -1,1 +1,1 @@
-An android application to find venue from a nearby location using four square API.
+An android application to find venues from a nearby location using four square API.
